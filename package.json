@@ -1,0 +1,10 @@
+{
+  "name": "@tdi/pi-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared Pi skills for TDI and other team codebases.",
+  "keywords": ["pi-package", "pi-skills"],
+  "pi": {
+    "skills": ["./skills"]
+  }
+}

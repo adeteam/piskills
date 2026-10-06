@@ -9,6 +9,8 @@ description: Implement and troubleshoot TDI frontend permissions using CASL abil
 
 Add or modify frontend authorization in a way that matches TDI’s permission system.
 
+Also load `/skill:tdi-backend-permissions-rbac` when permissions must protect backend resources. Frontend visibility checks are not a security boundary.
+
 ## Architecture summary
 
 TDI frontend permissions are built from these layers:

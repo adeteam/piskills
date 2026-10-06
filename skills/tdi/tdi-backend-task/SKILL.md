@@ -11,6 +11,11 @@ description: Implement backend changes in the TDI monorepo with submodule-aware 
 - Most backend feature changes belong in a target submodule, not repository root.
 - Use `bin/platform` as Django entrypoint when needed (not `manage.py`).
 
+## Related specialized workflows
+
+- Load `/skill:tdi-backend-permissions-rbac` when registering or enforcing backend permissions.
+- Load `/skill:tdi-backend-websockets` when adding or modifying Django Channels endpoints.
+
 ## Workflow
 
 1. Locate the target backend module under `src/`.
